@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+/*--------------Navigation!-------------*/
+.nav {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #FCD796;
+}
+
+ li, a {
+    font-family: "Monserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #411B09;
+    text-decoration: none;
+ }
+
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 3%;
+    background-color: #FCD796;
+ }
+
+ .home {
+    cursor: pointer;
+ }
+
+ .nav_links {
+    list-style: none;
+ }
+
+ .nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+ }
+
+ .nav_links li a {
+    transition: all 0.3s ease 0s;
+ }
+
+ .nav_links li a:hover {
+    font-weight: bold;
+ }
+/*--------------Body!-------------*/
+ #heroImg {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 50px;
+    background-color: #FDF8D8;
+ }
+
+ .title {
+   display: block;
+   position: relative;
+   top: 50px;
+ }
+ .bio, .button {
+   display: inline-block;
+   width: 50%;
+   position: relative;
+   bottom: 300px;
+ }
+
+ .profile {
+   display: inline-block;
+   position: relative;
+   left: 150px;
+   bottom: 100px;
+ }
+
+.button {
+   display: inline-block;
+   position: relative;
+   bottom: 250px;
+
+}
+
+ button {
+    padding: 15px 90px;
+    background-color: #D85517;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+ }
+
+ button:hover {
+    background-color: #F8D7D0;
+ }
+
+ button {
+   font-family: "Monserrat", sans-serif;
+   font-weight: 700;
+   font-size: 22px;
+   color: white;
+   text-decoration: none;
+ }
+
+ #subHeading {
+   display: flex;
+   justify-content: space-between;
+   padding: 50px;
+   margin: -50px;
+   background-color: #F0D9C5;
+ }
+
+ .skills {
+   display: block;
+   position: relative;
+   top: 50px;
+   right: 10px;
+ }
+
+.tools, .design, .education {
+   display: block;
+   justify-content: space-evenly;
+   padding: 50px;
+   margin: -50px;
+   top: 50px;
+}
+
+ .ed_list {
+   width: 22%;
+ }
+
+#other {
+   display: flex;
+   padding: 50px 50px;
+   border: 0px;
+   margin: -50px;
+   background-color: #FDF8D8;
+}
+
+.other {
+   display: block;
+   position: relative;
+   bottom: 50px;
+   width: 100%;
+}
+
+.otherText {
+   display: block;
+   position: relative;
+   top: 50px;
+}
+
+.boundary {
+   display: inline-block;
+   position: relative;
+   left: 10px;
+   bottom: 10px;
+}
+ /*--------------Footer!!-------------*/
+ .footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 50px;
+   padding: 20px 50px;
+   margin: -50px;
+   background: #FCD796;
+ }
+
+ .footer{
+   padding: 25px 30px;
+   list-style: none;
+}
+
+
+ /*--------------Typography!!-------------*/
+ h1 {
+   font-family: "Merriweather", sans-serif;
+   font-weight: 700;
+   font-size: 55px;
+   color: #D85517;
+   text-decoration: none;
+}
+
+h2 {
+   font-family: "Merriweather", sans-serif;
+   font-weight: 700;
+   font-size: 55px;
+   color: black;
+   text-decoration: none;
+}
+
+h3 {
+   font-family: "Oxygen", sans-serif;
+   font-weight: bold;
+   font-size: 24px;
+   color: black;
+   text-decoration: none;
+}
+
+h4 {
+   font-family: "Oxygen", sans-serif;
+   font-weight: 300;
+   font-size: 14px;
+   color: black;
+   text-decoration: none;
+}
+
+p {
+   font-family: "Oxygen", sans-serif;
+   font-weight: 300;
+   font-size: 24px;
+   color: black;
+   text-decoration: none;
+}
